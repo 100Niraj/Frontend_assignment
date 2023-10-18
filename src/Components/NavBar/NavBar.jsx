@@ -13,7 +13,7 @@ const NavBar = ({ selectedGroup, setSelectedGroup, selectedOrdering, setSelected
         }
 
         document.addEventListener("mousedown",handler);
-    }, [])
+    }, []);
     return (
         <>
             <div className="navbar-parent">
