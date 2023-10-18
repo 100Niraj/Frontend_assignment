@@ -1,5 +1,6 @@
 import Board from './Board/Board';
 import { CheckCircle, RefreshCw, Circle } from "react-feather";
+import "./Home.css";
 
 function Home({ data = {}, boardTitleList = [] }) {
   const iconMap = {
@@ -15,11 +16,11 @@ function Home({ data = {}, boardTitleList = [] }) {
     "Urgent" : <i class="fa fa-solid fa-ban"></i>
   }
   return (
-    <>
+    <div className='board_parent'>
       {boardTitleList.map((title, index) => (
         <Board title={title} icon={iconMap[title]} cardData={data[title]} />
       ))}
-    </>
+    </div>
   )
 }
 
