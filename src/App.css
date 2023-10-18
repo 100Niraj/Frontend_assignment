@@ -17,7 +17,7 @@
 .app_outer {
   flex: 1;
   overflow-x: auto;
-  padding:20px;
+  padding: 20px 10px;
   background-color: #a9d6e543;
 
 }

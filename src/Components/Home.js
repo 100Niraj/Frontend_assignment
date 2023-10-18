@@ -1,5 +1,4 @@
 import Board from './Board/Board';
-import { CheckCircle, RefreshCw, Circle } from "react-feather";
 import "./Home.css";
 
 function Home({ data = {}, boardTitleList = [] }) {
@@ -12,7 +11,7 @@ function Home({ data = {}, boardTitleList = [] }) {
     "No priority" : <i class="fa fa-solid fa-pencil"></i>,
     "Low" : <i class="fa fa-regular fa-circle"></i>, 
     "Medium" : <i class="fa fa-solid fa-rotate-right"></i>, 
-    "High" : <CheckCircle />,
+    "High" : <i class="fa fa-check"></i>,
     "Urgent" : <i class="fa fa-solid fa-ban"></i>
   }
   return (

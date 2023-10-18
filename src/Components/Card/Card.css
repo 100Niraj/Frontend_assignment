@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     gap:5px;
-    width: 280px;
+    width: 260px;
     box-shadow: 1px 1px 5px black;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .card_labels{
-    width: 270px;
+    width: 255px;
     display: flex;
     justify-content: space-between;
     font-size: 20px;

@@ -1,7 +1,4 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
-import { BsPersonCircle, Circle } from 'react-feather';
-
 import "./Card.css";
 
 

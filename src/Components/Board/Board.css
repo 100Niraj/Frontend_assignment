@@ -46,3 +46,9 @@
     border-bottom:2px solid #468faf;
     border-radius: 10px;
   }
+
+  @media screen and (max-width: 450px) {
+    .board_open {
+      display: none;
+    }
+}
