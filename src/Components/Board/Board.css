@@ -20,7 +20,7 @@
     border: 2px solid rgba(128, 128, 128, 0.589);
     margin-bottom: 10px;
     border-radius: 10px;
-    background-color: #C3B091;
+    background-color: #89c2d9;
     padding: 0 10px;
   }
 
@@ -43,6 +43,6 @@
     flex-direction:column;
     gap:20px;
     padding:10px;
-    border-bottom:10px solid #948369;
+    border-bottom:2px solid #468faf;
     border-radius: 10px;
   }

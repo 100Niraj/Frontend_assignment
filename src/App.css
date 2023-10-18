@@ -8,7 +8,7 @@
 .app_navbar {
   padding: 20px 30px;
   border-bottom: 1px solid #ccc;
-  background-color: #fcf8f2;
+  background-color: #a9d6e5;
   box-shadow: inset 0px -1px 1px black;
   /* border: 1px solid red; */
   z-index: 150;
@@ -18,7 +18,7 @@
   flex: 1;
   overflow-x: auto;
   padding:20px;
-  background-color: #E4CDA7;
+  background-color: #a9d6e543;
 
 }
 

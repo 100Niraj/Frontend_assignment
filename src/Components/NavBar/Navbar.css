@@ -9,8 +9,9 @@
     display: flex;
     justify-content: space-between;
     padding: 3px 10px;
-    background: #C3B091;
+    background: #468faf;
     border-radius: 8px;
+    color: snow;
 }
 
 .navbar-dropdown-option {
