@@ -1,3 +1,13 @@
+# QuickSell Frontend Assignment
+
+This project is created by using React.js as frontend.
+
+Used component based structures for easy rendering and improved readability of code.
+
+Extensible as per future requirements.
+
+Used HTML, CSS, JavaScript.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
