@@ -1,0 +1,29 @@
+.navbar-dropdown {
+    width: 180px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    position: relative;
+    border: 2px solid #bdbdbd;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 10px;
+    background: rgb(231, 222, 222);
+}
+
+.navbar-dropdown-option {
+    position: absolute;
+    top: 65px;
+    border: 2px solid red;
+    width: 180px;
+    padding: 10px;
+    background: #fff;
+    display: grid;
+    gap: 10px;
+}
+
+.dropdown-set {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+}

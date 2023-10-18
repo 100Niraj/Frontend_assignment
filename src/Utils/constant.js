@@ -1,0 +1,1 @@
+export const STATUS_BOARDS = ["Backlog","Todo", "In progress", "Done","Cancelled"]

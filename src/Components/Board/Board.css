@@ -1,0 +1,44 @@
+.board {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  word-wrap: break-word;
+  background-color: var(--board-color);
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  height: 100%;
+  max-height: 82vh;
+  color: var(--text-color);
+  }
+
+  .board_top {
+    display: flex;
+    align-items: center;
+  }
+  .board_outer{
+
+  }
+
+  .board_top_title{
+    flex:1;
+    display: flex;
+    align-items: center;
+    font-size: 1.15rem;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: 0 15px 0px 5px;
+  }
+  .board_top_title span{
+    color:grey;
+  }
+
+  .board_cards{
+    background-color: aliceblue;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    padding:10px;
+    border-bottom:10px;
+  }

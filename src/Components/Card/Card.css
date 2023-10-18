@@ -1,0 +1,62 @@
+.card{
+    padding:10px;
+    border-radius:5px;
+    background-color:rgb(235, 228, 241);
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    width: 250px;
+}
+
+.card_top{
+    display:flex;
+    gap:5px;
+}
+
+.card_labels{
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(76, 76, 76);
+    margin-bottom: 12px;
+}
+
+.fa-user, .fa-question {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 40%;
+}
+
+.card_top_labels{
+    flex:1;
+    display:flex;
+    gap:10px;
+}
+
+.card-title{
+    font-weight:bold;
+    display:flex;  
+    text-align: justify;
+}
+
+.card_footer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card_footer p{
+    display: flex;
+    gap:5px;
+}
+.fa-question {
+    background: #000;
+    color: white;
+    border-radius: 20%;
+    padding: 7px;
+}
+
+.fa-circle {
+    font-size: 20px;
+}
