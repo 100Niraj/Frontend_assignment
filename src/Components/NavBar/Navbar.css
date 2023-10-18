@@ -1,6 +1,4 @@
-.navbar-parent {
-    width: fit-content;
-}
+
 .navbar-dropdown {
     width: 180px;
     font-size: 1.5rem;
@@ -11,13 +9,15 @@
     display: flex;
     justify-content: space-between;
     padding: 3px 10px;
-    background: rgb(231, 222, 222);
+    background: #C3B091;
+    border-radius: 8px;
 }
 
 .navbar-dropdown-option {
     position: absolute;
     top: 65px;
-    border: 2px solid red;
+    border: 2px solid #948369;
+    border-radius: 8px;
     width: 180px;
     padding: 10px;
     background: #fff;

@@ -15,7 +15,7 @@ const NavBar = ({ selectedGroup, setSelectedGroup, selectedOrdering, setSelected
         document.addEventListener("mousedown",handler);
     }, []);
     return (
-        <>
+        <div className="navbar">
             <div className="navbar-parent">
                 <div className="navbar-dropdown" onClick={() => setDisplay(!display)}>
                     <span>DISPLAY</span>
@@ -51,7 +51,7 @@ const NavBar = ({ selectedGroup, setSelectedGroup, selectedOrdering, setSelected
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

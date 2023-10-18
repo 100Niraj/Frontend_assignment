@@ -14,11 +14,14 @@
   }
 
   .board_top {
-    display: flex;
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr;
     align-items: center;
-  }
-  .board_outer{
-
+    border: 2px solid rgba(128, 128, 128, 0.589);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #C3B091;
+    padding: 0 10px;
   }
 
   .board_top_title{
@@ -31,14 +34,15 @@
     padding: 0 15px 0px 5px;
   }
   .board_top_title span{
-    color:grey;
+    color:black;
   }
 
   .board_cards{
     background-color: aliceblue;
     display:flex;
     flex-direction:column;
-    gap:10px;
+    gap:20px;
     padding:10px;
-    border-bottom:10px;
+    border-bottom:10px solid #948369;
+    border-radius: 10px;
   }

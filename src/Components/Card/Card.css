@@ -1,11 +1,18 @@
 .card{
     padding:10px;
     border-radius:5px;
-    background-color:rgb(235, 228, 241);
+    background-color:#fcf8f2;
     display: flex;
     flex-direction: column;
     gap:5px;
     width: 250px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.card:hover {
+    scale: 1.01;
+    transition: ease 1ms;
+    cursor: pointer;
 }
 
 .card_top{

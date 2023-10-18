@@ -5,13 +5,13 @@ import "./Home.css";
 function Home({ data = {}, boardTitleList = [] }) {
   const iconMap = {
     "Backlog": <i class="fa fa-solid fa-pencil"></i>,
-    "Todo": <Circle />,
-    "In progress": <RefreshCw />,
-    "Done": <CheckCircle />,
+    "Todo": <i class="fa fa-regular fa-circle"></i>,
+    "In progress": <i class="fa fa-solid fa-rotate-right"></i>,
+    "Done": <i class="fa fa-check"></i>,
     "Cancelled": <i class="fa fa-solid fa-ban"></i>,
     "No priority" : <i class="fa fa-solid fa-pencil"></i>,
-    "Low" : <Circle />, 
-    "Medium" : <RefreshCw />, 
+    "Low" : <i class="fa fa-regular fa-circle"></i>, 
+    "Medium" : <i class="fa fa-solid fa-rotate-right"></i>, 
     "High" : <CheckCircle />,
     "Urgent" : <i class="fa fa-solid fa-ban"></i>
   }
